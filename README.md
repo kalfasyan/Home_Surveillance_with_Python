@@ -1,6 +1,9 @@
 # motion_alerts_served
 Motion detection using OpenCV (Raspberry Pi compatible), alerting through pushbullet, served with flask.
 
+## Installation
+```pip install -r requirements.txt```
+
 ## Usage
 ```CAMERA=opencv python3 app.py -c conf.json```  
   
