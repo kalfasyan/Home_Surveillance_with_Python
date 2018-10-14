@@ -8,8 +8,14 @@ With this repo you can:
 
 ## Installation
 ```pip install -r requirements.txt```  
+
+Get an Access token from [Pushbullet](https://www.pushbullet.com/).  
+
 Set an environment variable PUSHBULLET_API in your .bashrc:  
 ```export PUSHBULLET_API="MY_PUSHBULLET_API_KEY"```  
+
+Make sure you have 'curl' installed:  
+```sudo apt install curl```  
 
 
 ## Usage
