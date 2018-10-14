@@ -7,7 +7,8 @@ With this repo you can:
   
 
 ## Installation
-I strongly advise you to install a separate virtual environment to avoid dependency hells of python packages. Check out "Step 8" from [this nice blog post](https://www.pyimagesearch.com/2015/06/22/install-opencv-3-0-and-python-2-7-on-ubuntu/).  
+I strongly advise you to install a separate virtual environment to avoid dependency hells of python packages.  
+Check out "Step 8" from [this nice blog post](https://www.pyimagesearch.com/2015/06/22/install-opencv-3-0-and-python-2-7-on-ubuntu/).  
 
 ```pip install -r requirements.txt``` (you can remove the "picamera" line to avoid errors if you're not using this with an Rpi)  
 
