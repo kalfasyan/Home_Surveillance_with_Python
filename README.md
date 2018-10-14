@@ -10,7 +10,9 @@ Motion detection using OpenCV (Raspberry Pi compatible), alerting through pushbu
 Then open this [address (http://0.0.0.0:5000/)](http://0.0.0.0:5000/) on your browser.  
   
 If you run it on raspberry pi (+ enabled camera module, installed picamera package), uncomment line 13 from app.py:  
-```#from camera_pi import Camera```
+```#from camera_pi import Camera```  
+and then run:  
+```python3 app.py -c conf.json```  
 
 ### Thanks to:
 [miguelgrinberg](https://github.com/miguelgrinberg/flask-video-streaming) - for the flask streaming part  
