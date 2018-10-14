@@ -1,5 +1,10 @@
 # Motion Detection Alerts with Streaming  
-Motion detection using OpenCV (Raspberry Pi compatible), alerting through pushbullet, served with flask.
+With this repo you can:  
+1. Watch your webcam/camera/picamera feed on localhost [0.0.0.0:5000](0.0.0.0:5000) which is served with flask.  
+2. Perform motion detection on the camera feed, using opencv.  
+3. Send alerts (via pushbullet) to your phone, desktop or anywhere you have installed pushbullet, with its API.  
+4. Save the images that triggered the alerts on your disk (marking the exact image region of movement).  
+  
 
 ## Installation
 ```pip install -r requirements.txt```
