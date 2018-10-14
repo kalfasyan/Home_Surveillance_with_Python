@@ -7,6 +7,8 @@ Motion detection using OpenCV (Raspberry Pi compatible), alerting through pushbu
 ## Usage
 ```CAMERA=opencv python3 app.py -c conf.json```  
   
+Then open this [address](http://0.0.0.0:5000/) on your browser.  
+  
 If you run it on raspberry pi (+ enabled camera module, installed picamera package), uncomment line 13 from app.py:  
 ```#from camera_pi import Camera```
 
