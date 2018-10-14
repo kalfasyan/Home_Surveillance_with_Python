@@ -7,7 +7,10 @@ With this repo you can:
   
 
 ## Installation
-```pip install -r requirements.txt```
+```pip install -r requirements.txt```  
+Set an environment variable PUSHBULLET_API in your .bashrc:  
+```export PUSHBULLET_API="MY_PUSHBULLET_API_KEY"```  
+
 
 ## Usage
 ```CAMERA=opencv python3 app.py -c conf.json```  
