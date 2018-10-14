@@ -23,3 +23,5 @@ traitlets==4.3.2
 urllib3==1.23
 wcwidth==0.1.7
 flask==1.0.2
+scipy==1.1.0
+opencv-contrib-python==3.4.3.18
