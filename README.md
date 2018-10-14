@@ -1,4 +1,4 @@
-# Motion Detection Alerts with Streaming  
+# Motion Detection Alerts, plus Streaming  
 With this repo you can:  
 1. Watch your webcam/camera/picamera feed on localhost [(0.0.0.0:5000)](https://0.0.0.0:5000) which is served with flask.  
 2. Perform motion detection on the camera feed, using opencv.  
