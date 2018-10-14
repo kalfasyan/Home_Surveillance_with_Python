@@ -7,7 +7,7 @@ With this repo you can:
   
 
 ## Installation
-```pip install -r requirements.txt```  
+```pip install -r requirements.txt``` (you can remove the "picamera" line to avoid errors if you're not using this with an Rpi)  
 
 Get an Access token from [Pushbullet](https://www.pushbullet.com/).  
 
