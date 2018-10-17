@@ -1,6 +1,5 @@
 {
 	"show_video": false,
-	"use_dropbox": false,
 	"min_upload_seconds": 3.0,
 	"min_motion_frames": 8,
 	"camera_warmup_time": 2.5,
