@@ -6,22 +6,20 @@ With this repo you can:
 4. Save the images that triggered the alerts on your disk (marking the exact image region of movement).  
   
 
-## Installation
+## Requirements  
 I strongly advise you to install a separate virtual environment to avoid dependency hells of python packages.  
 Check out "Step 8" from [this nice blog post](https://www.pyimagesearch.com/2015/06/22/install-opencv-3-0-and-python-2-7-on-ubuntu/).  
 
-```pip install -r requirements.txt``` (you can remove the "picamera" line to avoid errors if you're not using this with an Rpi)  
-
-Get an Access token from [Pushbullet](https://www.pushbullet.com/).  
-
-Set an environment variable PUSHBULLET_API in your .bashrc:  
-```export PUSHBULLET_API="MY_PUSHBULLET_API_KEY"```  
+Get an Access token from [Pushbullet](https://www.pushbullet.com/#settings/account)  
 
 Make sure you have 'curl' installed:  
 ```sudo apt install curl```  
 
+## Installation  
+run the install.sh script:  
+```./install.sh```  
 
-## Usage
+## Usage  
 ```CAMERA=opencv python3 app.py -c conf.json```  
   
 Then open this [address (http://0.0.0.0:5000/)](http://0.0.0.0:5000/) on your browser.  
