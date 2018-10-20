@@ -65,7 +65,7 @@ class Camera(BaseCamera):
                 rawCapture.truncate(0)
 
                 timestamp = datetime.datetime.now()
-                text = "Unoccupied"
+                text = "No motion detected.."
 
                 # resize the frame, convert it to grayscale, and blur it
                 frame = imutils.resize(frame, width=500)
@@ -104,7 +104,7 @@ class Camera(BaseCamera):
                     # and update the text
                     (x, y, w, h) = cv2.boundingRect(c)
                     cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
-                    text = "Occupied"
+                    text = "Motion Detected!"
 
                 # draw the text and timestamp on the frame
                 ts = timestamp.strftime("%A %d %B %Y %I:%M:%S%p")
@@ -115,7 +115,7 @@ class Camera(BaseCamera):
                 
 
                 # check to see if the room is occupied
-                if text == "Occupied":
+                if text == "Motion Detected!":
                     # check to see if enough time has passed between uploads
                     if (timestamp - lastUploaded).seconds >= conf["min_upload_seconds"]:
                         # increment the motion counter
