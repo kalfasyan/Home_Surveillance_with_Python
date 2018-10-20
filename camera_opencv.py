@@ -59,8 +59,9 @@ class Camera(BaseCamera):
             timestamp = datetime.datetime.now()
             text = "No motion detected.."
 
-            # resize the frame, convert it to grayscale, and blur it
-            frame = imutils.resize(frame, width=500)
+            # resize the frame, convert it to RGB,
+            # and make a grayscale copy and blur it
+            frame = cv2.cvtColor(imutils.resize(frame, width=500), cv2.COLOR_BGR2RGB)
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
             gray = cv2.GaussianBlur(gray, (21, 21), 0)
 
