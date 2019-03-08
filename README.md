@@ -33,3 +33,12 @@ and then run:
 [miguelgrinberg](https://github.com/miguelgrinberg/flask-video-streaming) - for the flask streaming part  
 [Adrian Rosebrock](https://www.pyimagesearch.com/2015/06/01/home-surveillance-and-motion-detection-with-the-raspberry-pi-python-and-opencv/) - for the motion detection part  
 [pushbullet](https://docs.pushbullet.com) - for the alerts part  
+
+#### Troubleshooting
+You might have to install these libraries if you get errors complaining about them:
+```
+sudo apt install libhdf5-dev
+sudo apt install libhdf5-serial-dev 
+sudo apt install libqt4-test 
+sudo apt install libqtgui4
+```
