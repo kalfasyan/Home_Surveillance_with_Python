@@ -14,6 +14,8 @@ Get an Access token from [Pushbullet](https://www.pushbullet.com/#settings/accou
 
 Make sure you have 'curl' installed:  
 ```sudo apt install curl```  
+  
+Python 3  
 
 ## Installation  
 run the install.sh script:  
