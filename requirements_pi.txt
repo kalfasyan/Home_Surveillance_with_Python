@@ -22,7 +22,7 @@ six==1.11.0
 traitlets==4.3.2
 urllib3>=1.24.2
 wcwidth==0.1.7
-flask==1.0.2
+flask==2.3.2
 Pillow>=6.2.2
 scipy==1.1.0
 opencv-contrib-python==4.2.0.32
